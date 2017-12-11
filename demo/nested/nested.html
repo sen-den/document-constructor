@@ -21,7 +21,7 @@
      the above list template to render each container column -->
 <script type="text/ng-template" id="container.html">
     <div class="container-element box box-blue">
-        <h3>Block {{item.id}}</h3>
+        <h3>Блок {{item.id}}</h3>
         <div class="column" ng-repeat="list in item.columns" ng-include="'list.html'"></div>
         <div class="clearfix"></div>
     </div>
@@ -29,7 +29,7 @@
 
 <!-- Template for a normal list item -->
 <script type="text/ng-template" id="item.html">
-    <div class="item">Item {{item.id}}</div>
+    <div class="item">Элемент {{item.id}}</div>
 </script>
 
 <!-- Main area with dropzones and source code -->
@@ -46,7 +46,7 @@
 
     
 
-    <h2>Generated Model</h2>
+    <h2>Модель</h2>
     <pre>{{modelAsJson}}</pre>
 </div>
 
