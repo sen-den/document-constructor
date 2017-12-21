@@ -1,8 +1,0 @@
-<h1>Document construction</h1>
-
-<div class="alert alert-success">
-    <strong>Instructions:</strong>
-    drag &amp; drop items.
-</div>
-
-<div class="nestedDemo row" ng-include="'nested/nested.html'"></div>

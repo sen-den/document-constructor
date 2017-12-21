@@ -75,7 +75,7 @@
 
 .nestedDemo .dropzone .container-element .column {
     float: left;
-    width: 50%;
+    width: 100%; /* coloumn width? */
 }
 
 /***************************** Toolbox *****************************/
@@ -89,7 +89,7 @@
 .nestedDemo .toolbox button {
     margin: 5px;
     opacity: 1.0;
-    width: 123px;
+    width: 100%;
 }
 
 .nestedDemo .toolbox .dndDragging {
